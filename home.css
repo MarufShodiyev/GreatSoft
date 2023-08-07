@@ -1,0 +1,757 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+}
+
+/* header qismi boshlandi */
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 320px;
+    padding: 32px 80px;
+    width: 1440px;
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.logo__breend {
+    width: 149px;
+    height: 36px;
+    flex-shrink: 0;
+
+}
+
+.titles ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 4px;
+    height: 28px;
+
+}
+
+.title a {
+    display: flex;
+    align-items: center;
+    color: #242424;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+
+    /* 155.556% */
+}
+
+select {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    border: 1px solid rgba(50, 51, 137, 0.10);
+    background: rgba(50, 51, 137, 0.00);
+    box-sizing: border-box;
+}
+
+/* header qismi tugadi */
+
+
+/* navigation qismi */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    height: 843px;
+
+}
+
+
+
+.navigation__info {
+    padding-left: 80px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.navigation__info h1 {
+    width: 815px;
+    color: #242424;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.navigation__info h2 {
+    margin-top: -44px;
+    width: 350px;
+    color: #FF824B;
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 700;
+    /* margin-top: -7px; */
+    box-sizing: border-box;
+}
+
+.navigation__info p {
+    margin-top: -50px;
+    width: 546px;
+    color: #646464;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    gap: 57px;
+    width: 240px;
+    height: 54px;
+    border-radius: 10px;
+    background: #323389;
+    margin-top: 40px;
+}
+
+.button button {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    background: #323389;
+    border: none;
+    /* 133.333% */
+}
+
+
+
+
+.navigation__image {
+    width: 691px;
+    height: 532px;
+    margin-top: 36px;
+    padding-right: 80px;
+}
+
+.navigation__image img {
+    width: 458px;
+    height: 458px;
+    box-sizing: border-box;
+
+}
+
+
+.statics {
+    width: 1279px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(50, 51, 137, 0.05);
+    backdrop-filter: blur(25px);
+    margin-top: -70px;
+}
+
+.static {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.static img {
+    width: 54px;
+    height: 54px;
+}
+
+.static__info {
+    box-sizing: border-box;
+
+}
+
+.static__info p {
+    color: #242424;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+
+}
+
+.static__info h3 {
+    color: #242424;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -18px;
+}
+
+/* statics qismi tugadi */
+
+/* service qismi  */
+
+.services {
+    margin-top: 90px;
+    width: 1440px;
+    height: 1248px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+
+
+.departments h1 {
+    color: #323389;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.departments p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    color: #3F3D56;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.service__types {
+    margin: 75px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.service__type {
+    width: 390px;
+    height: 306px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    box-sizing: border-box;
+    margin-top: -25px;
+}
+
+.service__type img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+.service__type h3 {
+    color: #242424;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.service__type p {
+    width: 310px;
+    color: #242424;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 30px;
+    margin-top: -10px;
+    /* 175% */
+}
+
+/* services qismi tugadi */
+
+/* about-us qismi */
+
+.about-us__title {
+    padding-top: 70px;
+}
+
+.about__us {
+    width: 1440px;
+    height: 764px;
+    flex-shrink: 0;
+    background: #F4F4F4;
+    margin-top: -30px;
+}
+
+.about__us-info {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.about__us-image img {
+    width: 708px;
+    height: 455px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.info__short {
+    margin-right: 80px;
+}
+
+.info__short h3 {
+    color: #2C3240;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: 0px;
+
+    /* 158.333% */
+}
+
+.info__short p {
+    color: #646464;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+}
+
+.read__more-button {
+    margin-top: 40px;
+    gap: 65px;
+}
+
+/* portfolio qismi boshlandi */
+
+.portfolio {
+    margin-top: -30px;
+    background: #FFF;
+    width: 1440px;
+    height: 1500px;
+    /* box-sizing: border-box; */
+
+}
+
+.portfolio__title {
+    padding-top: 100px;
+}
+
+
+.projects__title ul {
+    display: flex;
+    gap: 60px;
+    margin: auto 80px;
+
+}
+
+.project__title {
+    display: inline-flex;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(100, 100, 100, 0.20);
+
+}
+
+.project__title a {
+    color: #646464;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+    /* 150% */
+}
+
+.all__projects {
+    list-style: none;
+    display: inline-flex;
+    padding: 12px 30px;
+    justify-content: start;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #323389;
+}
+
+.all__projects a {
+    display: flex;
+    text-decoration: none;
+    color: #323389;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
+
+.images__portfolio {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.view__all-button {
+    margin-top: 50px;
+    margin-left: 640px;
+    gap: 80px;
+}
+
+
+/* greatsoft haqida qismi */
+
+
+
+
+.greatsoft__about {
+    display: flex;
+    padding: 100px 80px;
+    background: #F4F4F4;
+    gap: 72px;
+}
+
+
+.greatsoft__about-short h2 {
+    margin-top: 0px;
+    width: 500px;
+    color: #2C3240;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.greatsoft__about-short p {
+    margin-top: -10px;
+    width: 482px;
+    color: #646464;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+    /* 177.778% */
+}
+
+.team__picture img {
+    width: 708px;
+    height: 360px;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+
+/* beznisni rivojlantirish jarayoni */
+.development__process-title {
+    margin-top: 90px;
+
+}
+
+.development__process-image {
+    text-align: center;
+
+    margin-top: 60px;
+
+}
+
+.development__process-image img {
+    width: 1280px;
+}
+
+
+/* order qismi */
+
+
+.order {
+    margin-left: 100px;
+    width: 1240px;
+    height: 367px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F4F4F4;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.order h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    color: #323389;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.order p {
+    color: #3F3D56;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -32px;
+}
+
+.order__button {
+    display: flex;
+    gap: 63px;
+    justify-content: flex-end;
+    width: 240px;
+    height: 64px;
+    border-radius: 10px;
+    background: #323389;
+    margin-left: 500px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.order__button button {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border: none;
+    background: #323389;
+
+    /* 120% */
+}
+
+
+/* footer qismi tugadi */
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 501px;
+    background: #090A3C;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+
+.footer__wlog__img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 742px;
+    margin-left: 80px;
+    top: 70px;
+    box-sizing: border-box;
+}
+
+.footer__wlog__img p {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+
+.your-email {
+    margin-left: 1021px;
+    position: absolute;
+    top: 144px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 196px;
+
+}
+
+.email p {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email img {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.bottom_line {
+    width: 340px;
+    height: 2px;
+    opacity: 0.25;
+    background: #FFF;
+    ;
+}
+
+.description {
+    position: absolute;
+    left: 80px;
+    top: 180px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description-info__and__networks {
+    position: absolute;
+    top: 243px;
+    left: 80px;
+    display: flex;
+    align-items: center;
+    gap: 427px;
+}
+
+.description-info {
+    width: 533px;
+    color: #A0A0A0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+.networks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #323389
+}
+
+.fa-brands {
+    color: white;
+}
+
+.line {
+    top: 369px;
+    position: absolute;
+    width: 1440px;
+    height: 2px;
+    opacity: 0.25;
+    background: var(--white, #FFF);
+}
+
+
+
+
+
+.footer-titles__and-All_rights {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.footer__titles ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.footer__title a {
+    height: 30px;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all__rights {
+    margin-left: 400px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: SF Pro Text;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 100% */
+}
