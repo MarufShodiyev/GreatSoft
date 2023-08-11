@@ -1,72 +1,8 @@
-* {
-    box-sizing: border-box;
-}
 
-body {
-    width: 1440px;
-}
 
-/* header qismi boshlandi */
-
-header {
-    display: flex;
-    align-items: center;
-    gap: 320px;
-    padding: 32px 80px;
-    width: 1440px;
-    height: 100px;
+.header__home{
     background-color: whitesmoke;
 }
-
-.logo__breend {
-    width: 149px;
-    height: 36px;
-    flex-shrink: 0;
-
-}
-
-.titles ul {
-    display: inline-flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    list-style: none;
-    padding: 4px;
-    height: 28px;
-
-}
-
-.title a {
-    display: flex;
-    align-items: center;
-    color: #242424;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    text-decoration: none;
-
-    /* 155.556% */
-}
-
-select {
-    display: flex;
-    padding: 12px 20px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 70px;
-    border: 1px solid rgba(50, 51, 137, 0.10);
-    background: rgba(50, 51, 137, 0.00);
-    box-sizing: border-box;
-}
-
-/* header qismi tugadi */
 
 
 /* navigation qismi */
@@ -91,7 +27,7 @@ select {
 .navigation__info h1 {
     width: 815px;
     color: #242424;
-    font-family: Poppins;
+
     font-size: 64px;
     font-weight: 400;
     box-sizing: border-box;
@@ -101,7 +37,7 @@ select {
     margin-top: -44px;
     width: 350px;
     color: #FF824B;
-    font-family: Poppins;
+
     font-size: 72px;
     font-weight: 700;
     /* margin-top: -7px; */
@@ -112,7 +48,7 @@ select {
     margin-top: -50px;
     width: 546px;
     color: #646464;
-    font-family: Poppins;
+
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -136,7 +72,7 @@ select {
 .button button {
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -197,7 +133,7 @@ select {
 
 .static__info p {
     color: #242424;
-    font-family: Poppins;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -208,7 +144,7 @@ select {
 
 .static__info h3 {
     color: #242424;
-    font-family: Poppins;
+
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -232,7 +168,7 @@ select {
 
 .departments h1 {
     color: #323389;
-    font-family: Poppins;
+
     font-size: 48px;
     font-weight: 600;
     display: flex;
@@ -246,7 +182,7 @@ select {
     justify-content: center;
     margin-top: -30px;
     color: #3F3D56;
-    font-family: Poppins;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -283,7 +219,7 @@ select {
 
 .service__type h3 {
     color: #242424;
-    font-family: Poppins;
+
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -296,7 +232,7 @@ select {
 .service__type p {
     width: 310px;
     color: #242424;
-    font-family: Poppins;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -344,7 +280,7 @@ select {
 
 .info__short h3 {
     color: #2C3240;
-    font-family: Poppins;
+
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -356,7 +292,7 @@ select {
 
 .info__short p {
     color: #646464;
-    font-family: Poppins;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -376,8 +312,6 @@ select {
     background: #FFF;
     width: 1440px;
     height: 1500px;
-    /* box-sizing: border-box; */
-
 }
 
 .portfolio__title {
@@ -387,8 +321,8 @@ select {
 
 .projects__title ul {
     display: flex;
-    gap: 60px;
-    margin: auto 80px;
+    gap: 40px;
+    margin-left: 80px;
 
 }
 
@@ -404,7 +338,6 @@ select {
 
 .project__title a {
     color: #646464;
-    font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -414,25 +347,11 @@ select {
 }
 
 .all__projects {
-    list-style: none;
-    display: inline-flex;
-    padding: 12px 30px;
-    justify-content: start;
-    align-items: center;
-    border-radius: 10px;
     border: 1px solid #323389;
 }
 
 .all__projects a {
-    display: flex;
-    text-decoration: none;
     color: #323389;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    /* 150% */
 }
 
 .images__portfolio {
@@ -468,7 +387,7 @@ select {
     margin-top: 0px;
     width: 500px;
     color: #2C3240;
-    font-family: Poppins;
+
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -480,7 +399,7 @@ select {
     margin-top: -10px;
     width: 482px;
     color: #646464;
-    font-family: Poppins;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -519,7 +438,7 @@ select {
 /* order qismi */
 
 
-.order {
+.order-wrapper {
     margin-left: 100px;
     width: 1240px;
     height: 367px;
@@ -530,23 +449,23 @@ select {
     margin-top: 120px;
 }
 
-.order h1 {
+.order-wrapper h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 80px;
     color: #323389;
     text-align: center;
-    font-family: Poppins;
+
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.order p {
+.order-wrapper p {
     color: #3F3D56;
-    font-family: Poppins;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -571,7 +490,7 @@ select {
 .order__button button {
     color: #FFF;
     text-align: center;
-    font-family: Poppins;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -583,175 +502,3 @@ select {
 }
 
 
-/* footer qismi tugadi */
-
-footer {
-    position: relative;
-    width: 1440px;
-    height: 501px;
-    background: #090A3C;
-    box-sizing: border-box;
-    margin-top: 120px;
-}
-
-.footer__wlog__img {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    gap: 742px;
-    margin-left: 80px;
-    top: 70px;
-    box-sizing: border-box;
-}
-
-.footer__wlog__img p {
-    color: var(--white, #FFF);
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.2px;
-}
-
-.your-email {
-    margin-left: 1021px;
-    position: absolute;
-    top: 144px;
-}
-
-.email {
-    display: flex;
-    align-items: center;
-    gap: 196px;
-
-}
-
-.email p {
-    color: var(--white, #FFF);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.email img {
-    width: 16px;
-    height: 16px;
-    flex-shrink: 0;
-}
-
-.bottom_line {
-    width: 340px;
-    height: 2px;
-    opacity: 0.25;
-    background: #FFF;
-    ;
-}
-
-.description {
-    position: absolute;
-    left: 80px;
-    top: 180px;
-    color: var(--white, #FFF);
-    text-align: center;
-    font-family: Poppins;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.description-info__and__networks {
-    position: absolute;
-    top: 243px;
-    left: 80px;
-    display: flex;
-    align-items: center;
-    gap: 427px;
-}
-
-.description-info {
-    width: 533px;
-    color: #A0A0A0;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    /* 157.143% */
-}
-
-.networks {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.network {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid #323389
-}
-
-.fa-brands {
-    color: white;
-}
-
-.line {
-    top: 369px;
-    position: absolute;
-    width: 1440px;
-    height: 2px;
-    opacity: 0.25;
-    background: var(--white, #FFF);
-}
-
-
-
-
-
-.footer-titles__and-All_rights {
-    position: absolute;
-    top: 410px;
-    left: 50px;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.footer__titles ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 50px;
-}
-
-.footer__title a {
-    height: 30px;
-    align-items: center;
-    text-decoration: none;
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.all__rights {
-    margin-left: 400px;
-    color: var(--white, #FFF);
-    text-align: center;
-    font-family: SF Pro Text;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 14px;
-    /* 100% */
-}
