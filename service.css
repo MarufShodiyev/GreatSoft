@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+}
+
+/* header nav qismi */
+
+
+
+
+.header-wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.nav__logo img {
+    height: 36px;
+}
+
+.nav__departments ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+
+}
+
+.nav__department a {
+    text-decoration: none;
+    color: #242424;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 4px;
+}
+
+.nav__department select {
+    padding: 12px 20px;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    border: 1px solid rgba(50, 51, 137, 0.10);
+    background: rgba(50, 51, 137, 0.00);
+}
+
+
+
+.title__wrapper {
+    margin-top: 30px;
+}
+
+.title__wrapper p {
+    color: rgba(3, 9, 92, 0.50);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title__wrapper span {
+    color: #323389;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* sarlavha qismi */
+.section-subject__middle__wrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-subject__middle__wrapper h1 {
+    color: #323389;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section-subject__middle__wrapper p {
+    color: #747474;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* sarlavha qismi tugadi */
+
+
+
+/* /section information qismi boshlandi */
+.section__information {
+    margin-top: 30px;
+}
+
+
+.services__info__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.service__info__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 26px;
+    height: 394px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.service__image img {
+    width: 414px;
+    height: 334px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 30px 40px;
+}
+
+.service__info h1 {
+    color: #323389;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 67px;
+}
+
+.service__info p {
+    color: #666;
+    width: 700px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+/* section information qismi tugadi */
+
+/* order now qismi */
+
+.section__order {
+    margin: 130px 0;
+
+
+}
+
+.order__wrapper {
+    width: 1240px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 16px;
+}
+
+.order__wrapper h1 {
+    color: #323389;
+    /* text-align: center; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.order__wrapper p {
+    color: #3F3D56;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 4px;
+
+}
+
+.order__button {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    justify-content: flex-end;
+    margin: 40px auto;
+    gap: 63px;
+    border-radius: 10px;
+    background: #323389;
+}
+
+.order__button button {
+    background-color: #323389;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    
+}
+
+/* order now qismi tugadi */
+
+/* footer qusmi boshlandi */
+
+.footer__container{
+   
+    width: 1440px;
+}
+
+.footer__wrapper{
+    background: #323389;
+    margin: 0 auto;
+}
