@@ -1,0 +1,85 @@
+.section__vacansy{
+    margin-top: 40px;
+}
+
+.vacancy {
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    gap: 50px;
+}
+.vacancy:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.vacancy__info h2 {
+    display: flex;
+    align-items: center;
+    color: #323389;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.vacancy__info p {
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.vacancy__info h4 {
+    color: #323389;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.readmore__submit__buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.readmore__button:not(:last-child) {
+    margin-right: 30px;
+}
+
+.readmore__button {
+    padding: 15px 38px;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.10);
+    background: #FFF;
+}
+
+.readmore__button button {
+    border: none;
+    background: #FFF;
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.submit__button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 67px;
+    width: 240px;
+    border-radius: 10px;
+    background: #323389;
+}
+
+.submit__button button{
+    border: none;
+    background: #323389;
+    font-size: 18px;
+    color: #FFF;
+}

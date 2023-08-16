@@ -1,0 +1,54 @@
+.section__info {
+    margin-top: 40px;
+}
+
+
+
+.section__info__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.blog__info {
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    width: 400px;
+    padding: 20px 20px 40px;
+}
+
+.blog__info h4 {
+    color: #323389;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.blog__info p {
+    color: #242424;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.read-more__button {
+    display: flex;
+    align-items: center;
+}
+
+.read-more__button button {
+    color: #242424;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    background: none;
+
+}
+
+.read-more__button img {
+    width: 21px;
+    stroke-width: 2px;
+    stroke: #242424;
+}

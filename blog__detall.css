@@ -1,0 +1,254 @@
+.section__info {
+    margin-top: 40px;
+}
+
+
+.section__info__wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.section__image {
+    padding: 15px 15px 31px;
+    border-radius: 10px;
+    border: 1px solid rgba(44, 50, 64, 0.20);
+    backdrop-filter: blur(12px);
+    height: 366px;
+}
+
+.section__image h4 {
+    color: #2A455F;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.section__image p {
+    color: #2A455F;
+    font-family: Times New Roman;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.section__information {
+    width: 800px;
+}
+
+.section__information h1 {
+    color: #323389;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.button__date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px 10px;
+}
+
+
+.button {
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 1px solid #F4F4F4;
+}
+
+.button button {
+    border: none;
+    background: none;
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.date img {
+    width: 24px;
+    height: 24px;
+}
+
+.date p {
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.section__information p {
+    color: #747474;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 20px 0px;
+}
+
+.section__information h4 {
+    margin-top: 10px;
+    color: #242424;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.section__information h5 {
+    margin-bottom: -19px;
+    color: #242424;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+
+}
+
+ul li {
+    color: #747474;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.section__information img {
+    margin: 10px 0px;
+}
+
+.tags__share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px 120px;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.tags h2 {
+    color: #242424;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.web__button {
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #F4F4F4;
+}
+
+.web__button button {
+    border: none;
+    background: none;
+    color: #666;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.share h2{
+    color: #242424;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.share__networks{
+    display: flex;
+    gap: 30px;
+}
+
+.share__network{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(36, 36, 36, 1);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    /* opacity: 0.25; */
+}
+
+.share__network a{
+    color:rgba(36, 36, 36, 1);
+}
+
+.section__info {
+    margin-top: 40px;
+}
+
+
+
+.section__info__wrapper{
+    display: flex;
+    flex-wrap: row;
+    overflow-x: auto;
+    gap: 40px;
+}
+.blog__info {
+    border-radius: 10px;
+    border: 1px solid #EBEBEB;
+    background: #FFF;
+    width: 400px;
+    padding: 20px 20px 40px;
+}
+
+.blog__info h4 {
+    color: #323389;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.blog__info p {
+    color: #242424;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.read-more__button {
+    display: flex;
+    align-items: center;
+}
+
+.read-more__button button {
+    color: #242424;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    background: none;
+
+}
+
+.read-more__button img {
+    width: 21px;
+    stroke-width: 2px;
+    stroke: #242424;
+}
