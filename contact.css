@@ -1,0 +1,164 @@
+.section__contact {
+    margin: 40px 0px;
+}
+
+
+.section__contact__info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0px 25px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.10);
+    background: #FFF;
+    width: 400px;
+}
+
+.icon__contact {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: rgba(225, 226, 233, 0.5);
+    border: 1px solid #c0bbbb;
+    border-radius: 50%;
+    justify-content: center;
+
+}
+
+.contact__title h4 {
+    color: #3f3d56;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.contact__title p {
+    color: #242424;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* send-message qismi */
+
+.section__send-message .send-mesage {
+    padding: 50px 63px;
+    border-radius: 20px;
+    border: 1px solid rgba(36, 36, 36, 0.10);
+    background: #FFF;
+}
+
+.send-message__title {
+    text-align: center;
+    width: 660px;
+    margin: auto;
+}
+
+.send-message__title h2 {
+    color: #323389;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.send-message__title p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #646464;
+}
+
+
+.form{
+    margin-top: 50px;
+}
+.send__inputs {
+    display: flex;
+    align-items: center;
+    gap: 59.5px;
+    /* width: 100%; */
+}
+
+.send__input {
+    border-radius: 10px;
+    border: 1px solid rgba(51, 34, 68, 0.10);
+    background: #FFF;
+    padding: 17px 20px;
+    width: 345px;
+}
+
+.send__input input{
+    border: none;
+    background: #FFF;
+    width: 100%;
+    outline: none;
+}
+
+.send__input input::placeholder{
+    color: #333;
+    font-size:16px;
+    font-weight: 400;
+}
+
+.send__textarea{
+    margin-top: 30px;
+}
+
+.send__textarea textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.10);
+    padding: 15px 24px;
+    outline: none;
+    resize: vertical;
+}
+
+.send__textarea textarea::placeholder{
+    color: #333;
+    font-size:16px;
+    font-weight: 400;
+}
+
+
+.send-message__button{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+.send__button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 240px;
+    gap: 92px;
+    border-radius: 10px;
+    background: #323389;
+   
+}
+
+.send__button button{
+    background: #323389;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.adres{
+   
+    display: flex;
+    margin: 50px auto 0px;
+    justify-content: center;
+    
+}
+.adres iframe{
+    width: 80%;
+    
+}

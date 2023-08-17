@@ -1,3 +1,8 @@
+
+.section__submitCV{
+    margin: 50px 0px 120px;
+}
+
 .section__submitCV__wrapper {
     padding: 40px 0px;
     border-radius: 20px;
@@ -6,6 +11,17 @@
 
 .submitCV__title {
     text-align: center;
+}
+
+.submitCV__title h1{
+        color: #323389;
+        font-size: 48px;
+        font-weight: 600;
+}
+.submitCV__title p{
+    color: #3f3d56;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 /* .form form{
@@ -43,6 +59,13 @@
     border: 1px solid rgba(36, 36, 36, 0.10);
     padding: 15px 24px;
     outline: none;
+
+}
+
+.label__input input::placeholder{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .label__input textarea {
@@ -54,11 +77,22 @@
     resize: vertical;
 }
 
+#textarea::placeholder{
+    padding-top: 5px;
+    width: 332px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .label__input #file {
     display: none;
 }
 
 .label__input .input-file {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 54px;
     border-radius: 10px;
@@ -66,6 +100,15 @@
     padding: 15px 24px;
     background-color: white;
     cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.input-file p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .label__input label {
@@ -75,11 +118,57 @@
     font-weight: 400;
     margin-bottom: 8px;
 }
-.label-file{
+
+.label-file {
     margin-bottom: 0;
 }
-.label__input label span{
+
+.label__input label span {
     display: inline-block;
     margin-bottom: 8px;
+
+}
+
+.cancel__send__button {
+   padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+
+.cancel__button {
+    padding: 15px 54px;
+    border-radius: 10px;
+    border: 1px solid rgba(36, 36, 36, 0.10);
+    background: #FFF;
+}
+
+.cancel__button button {
+    border: none;
+    background: #FFF;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #333;
+}
+
+.send__button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 240px;
+    gap: 92px;
+    border-radius: 10px;
+    background: #323389;
+}
+
+.send__button button{
+    background: #323389;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
 
 }
